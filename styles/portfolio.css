@@ -170,6 +170,23 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 
+.skill-badges li {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 50px;
+}
+
+.skill-badge {
+  font-size: 50px;
+  transition: all 150ms ease-in-out;
+}
+
+.skill-badge:hover {
+  color: #fff;
+  background-color: var(--branding-color);
+  padding: 20px;
+}
+
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
